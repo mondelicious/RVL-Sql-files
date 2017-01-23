@@ -1,0 +1,6 @@
+USE RVL
+
+CREATE TABLE tblLeadSource(
+	LeadID	INT IDENTITY PRIMARY KEY,
+	LeadDescription NVARCHAR(100)
+);
