@@ -1,0 +1,6 @@
+CREATE TABLE tblAccount(
+	AcctID INT PRIMARY KEY IDENTITY,
+	Account NVARCHAR(10)
+);
+
+DROP TABLE tblAccount

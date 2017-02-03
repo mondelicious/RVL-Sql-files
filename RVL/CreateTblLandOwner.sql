@@ -1,0 +1,9 @@
+USE RVL
+
+CREATE TABLE tblLandOwner(
+	LID INT IDENTITY PRIMARY KEY,
+	Land_Owner NVARCHAR(MAX)
+);
+
+
+SELECT * FROM tblLandOwner
